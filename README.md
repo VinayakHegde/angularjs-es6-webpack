@@ -1,5 +1,7 @@
 # angularjs-es6-webpack
 
+[Demo](https://vinayakhegde.github.io/angularjs-es6-webpack/)
+
 A complete, yet simple, starter for AngularJS using Webpack.
 
 This workflow serves as a starting point for building AngularJS (1.x) applications using Webpack 2.x. Should be noted that apart from the pre-installed angular package, this workflow is pretty much generic.
