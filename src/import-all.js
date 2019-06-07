@@ -8,3 +8,4 @@ const importAll = resource => {
 
 importAll(require.context('./app/', true, /\.js$/));
 importAll(require.context('./style/', true, /\.css$/));
+importAll(require.context('./less/', true, /\.less$/));

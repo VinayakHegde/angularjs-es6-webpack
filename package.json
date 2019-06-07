@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/vinayakhegde/angularjs-es6-webpack.git"
   },
-  "author": "Jesus Rodriguez",
+  "author": "Vinayak Hegde",
   "license": "MIT",
   "homepage": "https://github.com/vinayakhegde/angularjs-es6-webpack",
   "dependencies": {
@@ -42,6 +42,8 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "^0.0.32",
     "karma-webpack": "^3.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "node-libs-browser": "^2.1.0",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.4",

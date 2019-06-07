@@ -46,7 +46,7 @@ module.exports = function makeWebpackConfig() {
 
     // Output path from the view of the page
     // Uses webpack-dev-server in development
-    publicPath: '/',
+    publicPath: '/angularjs-es6-webpack/',
 
     // Filename for entry points
     // Only adds hash in build mode
@@ -110,6 +110,15 @@ module.exports = function makeWebpackConfig() {
           {loader: 'postcss-loader'}
         ],
       })
+    }, {
+      test: /\.(less)$/,
+      use: [{
+        loader: 'style-loader' // creates style nodes from JS strings
+      }, {
+        loader: 'css-loader' // translates CSS into CommonJS
+      }, {
+        loader: 'less-loader' // compiles Less to CSS
+      }]
     }, {
       // ASSET LOADER
       // Reference: https://github.com/webpack/file-loader
