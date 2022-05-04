@@ -17,7 +17,7 @@
   "license": "MIT",
   "homepage": "https://github.com/vinayakhegde/angularjs-es6-webpack",
   "dependencies": {
-    "angular": "^1.7.0"
+    "angular": "^1.8.3"
   },
   "devDependencies": {
     "ajv": "^6.4.0",
